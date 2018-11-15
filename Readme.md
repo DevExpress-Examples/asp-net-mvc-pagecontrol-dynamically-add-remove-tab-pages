@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/E4864/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/E4864/Controllers/HomeController.vb))
+* [TabInfo.cs](./CS/E4864/Models/TabInfo.cs) (VB: [TabInfo.vb](./VB/E4864/Models/TabInfo.vb))
+* **[_PageControlPartial.cshtml](./CS/E4864/Views/Home/_PageControlPartial.cshtml)**
+* [_TabPartial.cshtml](./CS/E4864/Views/Home/_TabPartial.cshtml)
+* [Index.cshtml](./CS/E4864/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # PageControl - How to dynamically add/remove tab pages
 
 
