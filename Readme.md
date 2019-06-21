@@ -8,6 +8,9 @@
 * [Index.cshtml](./CS/E4864/Views/Home/Index.cshtml)
 <!-- default file list end -->
 # PageControl - How to dynamically add/remove tab pages
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4864)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to dynamically add/remove PageControl's tabs on callbacks in MVC.</p><br />
