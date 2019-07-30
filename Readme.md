@@ -9,7 +9,7 @@
 <!-- default file list end -->
 # PageControl - How to dynamically add/remove tab pages
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4864)**
+**[[Run Online]](https://codecentral.devexpress.com/e4864/)**
 <!-- run online end -->
 
 
