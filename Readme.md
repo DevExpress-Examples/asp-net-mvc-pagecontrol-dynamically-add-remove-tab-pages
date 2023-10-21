@@ -6,7 +6,7 @@
 
 # Page Control for ASP.NET MVC - How to dynamically add and remove tab pages
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4864/)**
+**[[Run Online]](https://codecentral.devexpress.com/128553000/)**
 <!-- run online end -->
 
 This example demonstrates how to dynamically add and remove tab pages to and from [PageControl](https://docs.devexpress.com/AspNetMvc/8970/components/site-navigation-and-layout/pagecontrol) on callbacks.
