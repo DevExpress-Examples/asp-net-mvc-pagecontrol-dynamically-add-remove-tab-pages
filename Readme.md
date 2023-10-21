@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4864/)**
 <!-- run online end -->
 
-This example demonstares how to dynamically add and remove tab pages to/from [PageControl](https://docs.devexpress.com/AspNetMvc/8970/components/site-navigation-and-layout/pagecontrol) on callbacks.
+This example demonstrates how to dynamically add and remove tab pages to and from [PageControl](https://docs.devexpress.com/AspNetMvc/8970/components/site-navigation-and-layout/pagecontrol) on callbacks.
 
 ## Files to Review
 
