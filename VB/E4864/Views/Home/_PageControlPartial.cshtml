@@ -1,0 +1,35 @@
+@using E4864.Models;
+@model List<TabInfo>
+@Html.DevExpress().CallbackPanel(settings => {
+    settings.Name = "pageControlCallback";
+    settings.CallbackRouteValues = new {
+        Controller = "Home",
+        Action = "PageControlPartial"
+    };
+
+    settings.SetContent(() => {
+        Html.DevExpress().PageControl(pageControlSettings => {
+            pageControlSettings.Name = "pageControl";
+
+
+            pageControlSettings.TabPages.Clear();
+            foreach (TabInfo info in Model) {
+                MVCxTabPage page = pageControlSettings.TabPages.Add(info.Text, info.Name);
+                page.SetContent(() => {
+                    Html.RenderPartial("_TabPartial", info);
+                });
+                page.SetTabTemplateContent(container => {
+                    ViewContext.Writer.Write("<b class='dxtc-text'>");
+                    ViewContext.Writer.Write(container.TabPage.Text);
+                    ViewContext.Writer.Write("[<a href='javascript:pageControlCallback.PerformCallback({{ command: \"REMOVE\", parameter: \"{0}\"}})'>X</a>]", info.Name);
+                    ViewContext.Writer.Write("</b>");
+                });
+            }
+            pageControlSettings.TabPages.Add("+", "new");
+
+            pageControlSettings.ClientSideEvents.ActiveTabChanging = "function(s, e) {  if (e.tab.name == 'new') { e.cancel = true;  pageControlCallback.PerformCallback({ command: 'ADD', parameter: ''}); } }";
+        }).Render();
+    });
+    
+    }).GetHtml()
+
