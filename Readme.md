@@ -15,7 +15,7 @@ This example demonstrates how to dynamically add and remove tab pages to and fro
 * [TabInfo.cs](./CS/E4864/Models/TabInfo.cs) (VB: [TabInfo.vb](./VB/E4864/Models/TabInfo.vb))
 * [_PageControlPartial.cshtml](./CS/E4864/Views/Home/_PageControlPartial.cshtml)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-pagecontrol-dynamically-add-remove-tab-pages&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-pagecontrol-dynamically-add-remove-tab-pages&~~~was_helpful=no)
 
